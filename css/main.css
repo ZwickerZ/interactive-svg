@@ -1,3 +1,7 @@
+#bear {
+  padding: 20px;
+}
+
 #right-eye {
   animation: eye-movement 1s linear alternate infinite;
 }
