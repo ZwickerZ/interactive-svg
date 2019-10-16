@@ -1,0 +1,47 @@
+#right-eye {
+  animation: eye-movement 1s linear alternate infinite;
+}
+
+#left-eye {
+  animation: eye-movement-2 1s linear alternate-reverse infinite;
+}
+
+#right-ear {
+  transition: all 1s ease;
+}
+
+#left-ear {
+  transition: all 1s ease;
+}
+
+#bear:hover #right-ear {
+  transform: translateY(-.5em);
+}
+
+#bear:hover #left-ear {
+  transform: translateY(-.5em);
+}
+
+@keyframes eye-movement {
+
+  from {
+    transform: translateX(.5em);
+  }
+
+  to {
+    transform: translateX(2em)
+  }
+
+}
+
+@keyframes eye-movement-2 {
+
+  from {
+    transform: translateX(-.5em);
+  }
+
+  to {
+    transform: translateX(-2em)
+  }
+
+}
