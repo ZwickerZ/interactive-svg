@@ -29,7 +29,7 @@
   }
 
   to {
-    transform: translateX(2em)
+    transform: translateX(2em);
   }
 
 }
@@ -41,7 +41,7 @@
   }
 
   to {
-    transform: translateX(-2em)
+    transform: translateX(-2em);
   }
 
 }
